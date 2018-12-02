@@ -1,0 +1,49 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.content,
+.add {
+	margin: 15px;
+}
+
+.comment {
+	width: 800px;
+	border: 1px solid black;
+	padding: 10px;
+}
+
+.comment p {
+	display: inline;
+	word-break: break-all;
+}
+
+.approved {
+	background: #58E000;
+}
+
+.unapproved {
+	background: #FF7373;
+}
+
+.del,
+.app {
+	float: right;
+	cursor: pointer;
+	color: #081073;
+	font-weight: 600;
+}
+
+.tasks {
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+.button {
+	height: 30px;
+	width: 150px;
+}
